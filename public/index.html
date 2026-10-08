@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#d52b1e" />
+  <meta name="description" content="Canadian Krillion — an open-ended Canadian knowledge game where obscure answers score more." />
+  <title>Canadian Krillion 🍁</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main id="app">
+    <section id="home" class="screen active">
+      <div class="hero">
+        <div class="maple">🍁</div>
+        <p class="eyebrow">CANADA'S OPEN-ENDED KNOWLEDGE GAME</p>
+        <h1>Canadian<br><span>Krillion</span></h1>
+        <p class="lede">Six questions. One answer each. The more obscure your answer, the more points you get.</p>
+        <button id="startBtn" class="primary">Play now</button>
+        <div class="home-stats">
+          <div><strong id="bestScore">0</strong><span>personal best</span></div>
+          <div><strong>6</strong><span>categories</span></div>
+          <div><strong>700</strong><span>max points / answer</span></div>
+        </div>
+      </div>
+      <div class="howto card">
+        <h2>How it works</h2>
+        <ol>
+          <li>Get a Canadian category.</li>
+          <li>Submit <strong>one</strong> answer before time runs out.</li>
+          <li>Obvious answers score less. Niche answers score more.</li>
+          <li>Play again and try to beat your personal best.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="game" class="screen">
+      <header class="game-header">
+        <button id="quitBtn" class="text-btn">← Home</button>
+        <div class="progress"><span id="progressText">1 / 6</span><div class="progress-track"><div id="progressBar"></div></div></div>
+        <div class="score-mini">Score <strong id="liveScore">0</strong></div>
+      </header>
+
+      <div class="question-wrap">
+        <div class="category-icon" id="categoryIcon">🍺</div>
+        <p class="eyebrow" id="categoryLabel">CATEGORY 1</p>
+        <h2 id="question">Name a Canadian beer</h2>
+        <p class="hint" id="hint">Think beyond the obvious.</p>
+        <div class="timer"><div id="timerRing" class="timer-ring"><span id="timer">20</span></div></div>
+        <form id="answerForm" autocomplete="off">
+          <label class="sr-only" for="answer">Your answer</label>
+          <input id="answer" maxlength="80" placeholder="Type one answer…" autofocus />
+          <button class="primary" type="submit">Lock it in</button>
+        </form>
+        <p id="gameMessage" class="message" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section id="result" class="screen">
+      <div class="result-card">
+        <p class="eyebrow">ANSWER REVEALED</p>
+        <div id="resultIcon" class="category-icon">🍺</div>
+        <h2 id="resultAnswer">Steam Whistle</h2>
+        <div class="points" id="resultPoints">+42</div>
+        <p id="resultRarity">Verified online.</p>
+        <div class="result-bar"><div id="rarityBar"></div></div><p id="verificationNote" class="verification-note"></p>
+        <button id="nextBtn" class="primary">Next question</button>
+      </div>
+    </section>
+
+    <section id="final" class="screen">
+      <div class="final-card">
+        <div class="maple">🍁</div>
+        <p class="eyebrow">GAME COMPLETE</p>
+        <h2 id="finalScore">0</h2>
+        <p id="finalSubtitle">points</p>
+        <div id="newBest" class="new-best hidden">NEW PERSONAL BEST</div>
+        <div class="final-stats">
+          <div><span>Personal best</span><strong id="finalBest">0</strong></div>
+          <div><span>Answers</span><strong>6</strong></div>
+        </div>
+        <div class="answer-summary" id="answerSummary"></div>
+        <div class="final-actions">
+          <button id="againBtn" class="primary">Play again</button>
+          <button id="homeBtn" class="secondary">Home</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="answers.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

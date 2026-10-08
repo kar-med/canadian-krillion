@@ -1,0 +1,592 @@
+[
+  {
+    "key": "beer",
+    "label": "Canadian beer",
+    "icon": "🍺",
+    "answers": [
+      {
+        "answer": "Labatt Blue",
+        "share": 0.62
+      },
+      {
+        "answer": "Molson Canadian",
+        "share": 0.55
+      },
+      {
+        "answer": "Moosehead",
+        "share": 0.31
+      },
+      {
+        "answer": "Sleeman",
+        "share": 0.22
+      },
+      {
+        "answer": "Steam Whistle",
+        "share": 0.14
+      },
+      {
+        "answer": "Kokanee",
+        "share": 0.13
+      },
+      {
+        "answer": "Alexander Keith’s",
+        "share": 0.12
+      },
+      {
+        "answer": "Creemore Springs",
+        "share": 0.09
+      },
+      {
+        "answer": "Unibroue",
+        "share": 0.07
+      },
+      {
+        "answer": "Rickard’s",
+        "share": 0.065
+      },
+      {
+        "answer": "Fort Garry",
+        "share": 0.04
+      },
+      {
+        "answer": "Phillips",
+        "share": 0.035
+      },
+      {
+        "answer": "Collective Arts",
+        "share": 0.03
+      },
+      {
+        "answer": "Great Lakes Brewery",
+        "share": 0.028
+      },
+      {
+        "answer": "Steamworks",
+        "share": 0.025
+      },
+      {
+        "answer": "Strange Fellows",
+        "share": 0.018
+      },
+      {
+        "answer": "Dieu du Ciel!",
+        "share": 0.014
+      },
+      {
+        "answer": "Brasseurs de Montréal",
+        "share": 0.01
+      },
+      {
+        "answer": "Tofino Brewing",
+        "share": 0.008
+      },
+      {
+        "answer": "Dageraad",
+        "share": 0.006
+      }
+    ]
+  },
+  {
+    "key": "city",
+    "label": "Canadian city west of Toronto",
+    "icon": "🏙️",
+    "answers": [
+      {
+        "answer": "Winnipeg",
+        "share": 0.42
+      },
+      {
+        "answer": "Calgary",
+        "share": 0.4
+      },
+      {
+        "answer": "Edmonton",
+        "share": 0.37
+      },
+      {
+        "answer": "Vancouver",
+        "share": 0.36
+      },
+      {
+        "answer": "Ottawa",
+        "share": 0.34
+      },
+      {
+        "answer": "Hamilton",
+        "share": 0.32
+      },
+      {
+        "answer": "London",
+        "share": 0.28
+      },
+      {
+        "answer": "Kitchener",
+        "share": 0.25
+      },
+      {
+        "answer": "Regina",
+        "share": 0.18
+      },
+      {
+        "answer": "Saskatoon",
+        "share": 0.17
+      },
+      {
+        "answer": "Victoria",
+        "share": 0.15
+      },
+      {
+        "answer": "Kelowna",
+        "share": 0.13
+      },
+      {
+        "answer": "Windsor",
+        "share": 0.12
+      },
+      {
+        "answer": "Thunder Bay",
+        "share": 0.1
+      },
+      {
+        "answer": "Lethbridge",
+        "share": 0.07
+      },
+      {
+        "answer": "Red Deer",
+        "share": 0.065
+      },
+      {
+        "answer": "Kamloops",
+        "share": 0.055
+      },
+      {
+        "answer": "Prince George",
+        "share": 0.045
+      },
+      {
+        "answer": "Medicine Hat",
+        "share": 0.035
+      },
+      {
+        "answer": "Nanaimo",
+        "share": 0.03
+      },
+      {
+        "answer": "Brandon",
+        "share": 0.026
+      },
+      {
+        "answer": "Fort McMurray",
+        "share": 0.021
+      },
+      {
+        "answer": "Grande Prairie",
+        "share": 0.018
+      },
+      {
+        "answer": "Moose Jaw",
+        "share": 0.014
+      },
+      {
+        "answer": "Prince Albert",
+        "share": 0.012
+      },
+      {
+        "answer": "Whitehorse",
+        "share": 0.009
+      },
+      {
+        "answer": "Yellowknife",
+        "share": 0.008
+      },
+      {
+        "answer": "Dawson City",
+        "share": 0.003
+      }
+    ]
+  },
+  {
+    "key": "slang",
+    "label": "Canadian slang",
+    "icon": "🗣️",
+    "answers": [
+      {
+        "answer": "Toque",
+        "share": 0.54
+      },
+      {
+        "answer": "Eh",
+        "share": 0.52
+      },
+      {
+        "answer": "Loonie",
+        "share": 0.39
+      },
+      {
+        "answer": "Toonie",
+        "share": 0.36
+      },
+      {
+        "answer": "Double-double",
+        "share": 0.29
+      },
+      {
+        "answer": "Timmies",
+        "share": 0.25
+      },
+      {
+        "answer": "Chesterfield",
+        "share": 0.17
+      },
+      {
+        "answer": "Pop",
+        "share": 0.15
+      },
+      {
+        "answer": "Bunny hug",
+        "share": 0.1
+      },
+      {
+        "answer": "Give’r",
+        "share": 0.08
+      },
+      {
+        "answer": "Keener",
+        "share": 0.07
+      },
+      {
+        "answer": "Mickey",
+        "share": 0.06
+      },
+      {
+        "answer": "Two-four",
+        "share": 0.055
+      },
+      {
+        "answer": "Hydro",
+        "share": 0.05
+      },
+      {
+        "answer": "Parkade",
+        "share": 0.043
+      },
+      {
+        "answer": "Gong show",
+        "share": 0.035
+      },
+      {
+        "answer": "Dart",
+        "share": 0.03
+      },
+      {
+        "answer": "Stagette",
+        "share": 0.024
+      },
+      {
+        "answer": "Hang a Larry",
+        "share": 0.018
+      },
+      {
+        "answer": "Beauty",
+        "share": 0.015
+      },
+      {
+        "answer": "Runners",
+        "share": 0.012
+      },
+      {
+        "answer": "Freezie",
+        "share": 0.01
+      }
+    ]
+  },
+  {
+    "key": "university",
+    "label": "Canadian university with a medical school",
+    "icon": "🩺",
+    "answers": [
+      {
+        "answer": "University of Toronto",
+        "share": 0.58
+      },
+      {
+        "answer": "McGill University",
+        "share": 0.52
+      },
+      {
+        "answer": "University of British Columbia",
+        "share": 0.42
+      },
+      {
+        "answer": "McMaster University",
+        "share": 0.35
+      },
+      {
+        "answer": "University of Alberta",
+        "share": 0.28
+      },
+      {
+        "answer": "University of Calgary",
+        "share": 0.25
+      },
+      {
+        "answer": "Western University",
+        "share": 0.22
+      },
+      {
+        "answer": "Queen’s University",
+        "share": 0.19
+      },
+      {
+        "answer": "University of Ottawa",
+        "share": 0.18
+      },
+      {
+        "answer": "Dalhousie University",
+        "share": 0.16
+      },
+      {
+        "answer": "University of Manitoba",
+        "share": 0.14
+      },
+      {
+        "answer": "University of Saskatchewan",
+        "share": 0.12
+      },
+      {
+        "answer": "Memorial University of Newfoundland",
+        "share": 0.1
+      },
+      {
+        "answer": "Université de Montréal",
+        "share": 0.09
+      },
+      {
+        "answer": "Université Laval",
+        "share": 0.075
+      },
+      {
+        "answer": "University of Sherbrooke",
+        "share": 0.065
+      },
+      {
+        "answer": "University of British Columbia",
+        "share": 0.06
+      },
+      {
+        "answer": "Northern Ontario School of Medicine University",
+        "share": 0.045
+      },
+      {
+        "answer": "University of Guelph",
+        "share": 0.01
+      }
+    ]
+  },
+  {
+    "key": "company",
+    "label": "Canadian company",
+    "icon": "🏢",
+    "answers": [
+      {
+        "answer": "Shopify",
+        "share": 0.55
+      },
+      {
+        "answer": "Tim Hortons",
+        "share": 0.48
+      },
+      {
+        "answer": "Canadian Tire",
+        "share": 0.43
+      },
+      {
+        "answer": "Lululemon",
+        "share": 0.37
+      },
+      {
+        "answer": "RBC",
+        "share": 0.31
+      },
+      {
+        "answer": "Air Canada",
+        "share": 0.29
+      },
+      {
+        "answer": "Bombardier",
+        "share": 0.23
+      },
+      {
+        "answer": "Scotiabank",
+        "share": 0.21
+      },
+      {
+        "answer": "TD Bank",
+        "share": 0.2
+      },
+      {
+        "answer": "WestJet",
+        "share": 0.18
+      },
+      {
+        "answer": "Rogers",
+        "share": 0.16
+      },
+      {
+        "answer": "Bell",
+        "share": 0.15
+      },
+      {
+        "answer": "Cineplex",
+        "share": 0.12
+      },
+      {
+        "answer": "Manulife",
+        "share": 0.1
+      },
+      {
+        "answer": "Suncor",
+        "share": 0.09
+      },
+      {
+        "answer": "BlackBerry",
+        "share": 0.08
+      },
+      {
+        "answer": "Roots",
+        "share": 0.065
+      },
+      {
+        "answer": "Herschel Supply Co.",
+        "share": 0.05
+      },
+      {
+        "answer": "Dollarama",
+        "share": 0.045
+      },
+      {
+        "answer": "Canada Goose",
+        "share": 0.04
+      },
+      {
+        "answer": "Arc’teryx",
+        "share": 0.035
+      },
+      {
+        "answer": "Lightspeed",
+        "share": 0.028
+      },
+      {
+        "answer": "OpenText",
+        "share": 0.022
+      },
+      {
+        "answer": "Constellation Software",
+        "share": 0.018
+      },
+      {
+        "answer": "Clio",
+        "share": 0.012
+      },
+      {
+        "answer": "Wattpad",
+        "share": 0.01
+      }
+    ]
+  },
+  {
+    "key": "tradition",
+    "label": "Canadian holiday/tradition",
+    "icon": "🍁",
+    "answers": [
+      {
+        "answer": "Canada Day",
+        "share": 0.62
+      },
+      {
+        "answer": "Thanksgiving",
+        "share": 0.55
+      },
+      {
+        "answer": "Remembrance Day",
+        "share": 0.36
+      },
+      {
+        "answer": "Victoria Day",
+        "share": 0.29
+      },
+      {
+        "answer": "Boxing Day",
+        "share": 0.27
+      },
+      {
+        "answer": "Hockey Night in Canada",
+        "share": 0.22
+      },
+      {
+        "answer": "Remembrance Day poppy",
+        "share": 0.18
+      },
+      {
+        "answer": "Canadian Thanksgiving dinner",
+        "share": 0.16
+      },
+      {
+        "answer": "Stampede",
+        "share": 0.14
+      },
+      {
+        "answer": "St-Jean-Baptiste Day",
+        "share": 0.11
+      },
+      {
+        "answer": "Family Day",
+        "share": 0.1
+      },
+      {
+        "answer": "Cottage season",
+        "share": 0.085
+      },
+      {
+        "answer": "May long weekend",
+        "share": 0.075
+      },
+      {
+        "answer": "October Thanksgiving",
+        "share": 0.065
+      },
+      {
+        "answer": "Calgary Stampede pancake breakfast",
+        "share": 0.04
+      },
+      {
+        "answer": "Bonhomme Carnaval",
+        "share": 0.035
+      },
+      {
+        "answer": "Winterlude",
+        "share": 0.03
+      },
+      {
+        "answer": "Polar Bear Dip",
+        "share": 0.024
+      },
+      {
+        "answer": "Nuit Blanche",
+        "share": 0.02
+      },
+      {
+        "answer": "Hockey pool",
+        "share": 0.016
+      },
+      {
+        "answer": "Sugar shack season",
+        "share": 0.012
+      },
+      {
+        "answer": "Maple syrup festival",
+        "share": 0.009
+      }
+    ]
+  }
+]
